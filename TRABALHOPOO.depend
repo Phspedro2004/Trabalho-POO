@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1712925519 source:c:\users\8009660\desktop\trabalhopoo\main.cpp
+	<iostream>
+	"Data.cpp"
+	"Pessoa.cpp"
+
+1712921349 c:\users\8009660\desktop\trabalhopoo\datacodes.h
+	"Data.h"
+
+1712923129 c:\users\8009660\desktop\trabalhopoo\data.h
+	<iostream>
+
+1712923117 c:\users\8009660\desktop\trabalhopoo\data.cpp
+	"Data.h"
+
+1712927485 c:\users\8009660\desktop\trabalhopoo\pessoa.cpp
+	"Pessoa.h"
+	"Endereco.h"
+	"Endereco.cpp"
+
+1712927466 c:\users\8009660\desktop\trabalhopoo\pessoa.h
+	"Endereco.h"
+
+1712925290 c:\users\8009660\desktop\trabalhopoo\endereco.h
+
+1712925060 c:\users\8009660\desktop\trabalhopoo\endereco.cpp
+	"Endereco.h"
+
+1713367213 source:c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\main.cpp
+	<iostream>
+	"Data.cpp"
+	"Pessoa.cpp"
+
+1712923118 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\data.cpp
+	"Data.h"
+
+1712923130 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\data.h
+	<iostream>
+
+1713367122 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\pessoa.cpp
+	"Pessoa.h"
+	"Endereco.h"
+	"Endereco.cpp"
+
+1713367149 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\pessoa.h
+	"Endereco.h"
+
+1713367102 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\endereco.h
+
+1713367101 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\endereco.cpp
+	"Endereco.h"
+
+1713476325 source:c:\users\phspe\desktop\trabalhopoo\main.cpp
+	<iostream>
+	<windows.h>
+	<string>
+	"Pessoa.cpp"
+	"Trabalhador.cpp"
+	"Contrato.cpp"
+	"ListaTrabalhadores.cpp"
+
+1713465620 c:\users\phspe\desktop\trabalhopoo\data.cpp
+	"Data.h"
+
+1713465607 c:\users\phspe\desktop\trabalhopoo\data.h
+
+1713473659 c:\users\phspe\desktop\trabalhopoo\pessoa.cpp
+	"Pessoa.h"
+	"Endereco.h"
+	"Endereco.cpp"
+
+1713471689 c:\users\phspe\desktop\trabalhopoo\pessoa.h
+	"Endereco.h"
+	<iostream>
+	<string>
+
+1713463289 c:\users\phspe\desktop\trabalhopoo\endereco.h
+
+1713367102 c:\users\phspe\desktop\trabalhopoo\endereco.cpp
+	"Endereco.h"
+
+1713480054 c:\users\phspe\desktop\trabalhopoo\trabalhador.cpp
+	"trabalhador.h"
+	"Data.h"
+	"Data.cpp"
+	"Habilidades.h"
+	"Habilidades.cpp"
+	<iostream>
+	<vector>
+
+1713479941 c:\users\phspe\desktop\trabalhopoo\trabalhador.h
+	"Habilidades.h"
+	"Data.h"
+	<vector>
+
+1713463276 c:\users\phspe\desktop\trabalhopoo\habilidades.h
+
+1713473920 c:\users\phspe\desktop\trabalhopoo\habilidades.cpp
+	"Habilidades.h"
+
+1713476512 c:\users\phspe\desktop\trabalhopoo\listatrabalhadores.cpp
+	"ListaTrabalhadores.h"
+
+1713475951 c:\users\phspe\desktop\trabalhopoo\listatrabalhadores.h
+	"Endereco.h"
+	"Trabalhador.h"
+
+1713469323 c:\users\phspe\desktop\trabalhopoo\sistema.cpp
+	"Sistema.h"
+	"ListaTrabalhadores.h"
+
+1713470289 c:\users\phspe\desktop\trabalhopoo\sistema.h
+	"ListaTrabalhadores.h"
+
+1713478221 c:\users\phspe\desktop\trabalhopoo\contrato.cpp
+	"Contrato.h"
+	"Data.h"
+	"Trabalhador.h"
+	"ListaTrabalhadores.h"
+
+1713477000 c:\users\phspe\desktop\trabalhopoo\contrato.h
+	"Trabalhador.h"
+	"ListaTrabalhadores.h"
+	"Data.h"
+
