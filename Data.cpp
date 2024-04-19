@@ -12,6 +12,20 @@ int Data::getAno()
 {
     return ano;
 }
+
+void Data::setDia(int Vdia)
+{
+    dia = Vdia;
+}
+void Data::setMes(int VMes)
+{
+    mes = VMes;
+}
+void Data::setAno(int VAno)
+{
+    ano = VAno;
+}
+
 int Data::getData(){
 
     return dia << mes << ano;

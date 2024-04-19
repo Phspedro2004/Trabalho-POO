@@ -8,10 +8,11 @@
 using namespace std;
 class Sistema{
     private:
-        int Clientes;
         ListaTrabalhadores Trabalhadores;
+        ListaClientes Clientes;
     public:
         ListaTrabalhadores getTrabalhadores();
+        ListaClientes getClientes();
 
 
 };

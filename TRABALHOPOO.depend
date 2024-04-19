@@ -50,19 +50,21 @@
 1713367101 c:\users\8009660\desktop\nova pasta\trabalhopoo\trabalhopoo\endereco.cpp
 	"Endereco.h"
 
-1713476325 source:c:\users\phspe\desktop\trabalhopoo\main.cpp
+1713485286 source:c:\users\phspe\desktop\trabalhopoo\main.cpp
 	<iostream>
 	<windows.h>
 	<string>
 	"Pessoa.cpp"
 	"Trabalhador.cpp"
+	"ListaCliente.cpp"
 	"Contrato.cpp"
+	"Cliente.cpp"
 	"ListaTrabalhadores.cpp"
 
-1713465620 c:\users\phspe\desktop\trabalhopoo\data.cpp
+1713483577 c:\users\phspe\desktop\trabalhopoo\data.cpp
 	"Data.h"
 
-1713465607 c:\users\phspe\desktop\trabalhopoo\data.h
+1713483494 c:\users\phspe\desktop\trabalhopoo\data.h
 
 1713473659 c:\users\phspe\desktop\trabalhopoo\pessoa.cpp
 	"Pessoa.h"
@@ -79,7 +81,7 @@
 1713367102 c:\users\phspe\desktop\trabalhopoo\endereco.cpp
 	"Endereco.h"
 
-1713480054 c:\users\phspe\desktop\trabalhopoo\trabalhador.cpp
+1713487381 c:\users\phspe\desktop\trabalhopoo\trabalhador.cpp
 	"trabalhador.h"
 	"Data.h"
 	"Data.cpp"
@@ -88,7 +90,7 @@
 	<iostream>
 	<vector>
 
-1713479941 c:\users\phspe\desktop\trabalhopoo\trabalhador.h
+1713487509 c:\users\phspe\desktop\trabalhopoo\trabalhador.h
 	"Habilidades.h"
 	"Data.h"
 	<vector>
@@ -98,7 +100,7 @@
 1713473920 c:\users\phspe\desktop\trabalhopoo\habilidades.cpp
 	"Habilidades.h"
 
-1713476512 c:\users\phspe\desktop\trabalhopoo\listatrabalhadores.cpp
+1713485983 c:\users\phspe\desktop\trabalhopoo\listatrabalhadores.cpp
 	"ListaTrabalhadores.h"
 
 1713475951 c:\users\phspe\desktop\trabalhopoo\listatrabalhadores.h
@@ -112,14 +114,30 @@
 1713470289 c:\users\phspe\desktop\trabalhopoo\sistema.h
 	"ListaTrabalhadores.h"
 
-1713478221 c:\users\phspe\desktop\trabalhopoo\contrato.cpp
+1713486550 c:\users\phspe\desktop\trabalhopoo\contrato.cpp
 	"Contrato.h"
 	"Data.h"
 	"Trabalhador.h"
 	"ListaTrabalhadores.h"
 
-1713477000 c:\users\phspe\desktop\trabalhopoo\contrato.h
+1713484209 c:\users\phspe\desktop\trabalhopoo\contrato.h
 	"Trabalhador.h"
 	"ListaTrabalhadores.h"
 	"Data.h"
+
+1713479903 c:\users\phspe\desktop\trabalhopoo\listacliente.cpp
+	"ListaCliente.h"
+
+1713480074 c:\users\phspe\desktop\trabalhopoo\listacliente.h
+	"Endereco.h"
+	"Cliente.h"
+
+1713484186 c:\users\phspe\desktop\trabalhopoo\cliente.h
+	"Data.h"
+	"Contrato.h"
+
+1713484196 c:\users\phspe\desktop\trabalhopoo\cliente.cpp
+	"Cliente.h"
+	"Data.h"
+	"Contrato.h"
 

@@ -3,6 +3,7 @@
 #include <string>
 #include "Pessoa.cpp"
 #include "Trabalhador.cpp"
+#include "ListaCliente.cpp"
 #include "Contrato.cpp"
 #include "Cliente.cpp"
 #include "ListaTrabalhadores.cpp"
@@ -25,6 +26,7 @@ int main()
     string CPF;
 
     int indice;
+    int vetorzin = 0;
 
     int Numero;
     int Idade;
@@ -43,6 +45,7 @@ int main()
 
     Contrato Teste;
     ListaTrabalhadores ListaT;
+    ListaClientes ListaC;
 
     bool cachorroTemporal = true;
     //Sistema Principal;
@@ -89,7 +92,7 @@ int main()
         cin >> El;
         cout << "5.Dedetizador \n";
         cin >> De;
-        Trabalhador Pessoa1(Idade,Nome,CPF,Contato,0,12,04,2024);
+        Trabalhador Pessoa1(Idade,Nome,CPF,Contato);
         Pessoa1.setEndereco(Bairro, Cidade, Rua, Numero, Complemento);
         Pessoa1.setHabilidade(En,Ja,Pe,El,De);
         ListaT.AddTrabalhadores(Pessoa1);
@@ -116,10 +119,15 @@ int main()
 
         cout << "insira o CPF: ";
         getline(cin >> ws, CPF);
-        Cliente Pessoa2(Idade,Nome,CPF,Contato,0,12,04,2024);
+        Cliente Pessoa2(Idade,Nome,CPF,Contato);
+        Pessoa2.setEndereco(Bairro, Cidade, Rua, Numero, Complemento);
+        ListaC.AddCliente(Pessoa2);
     }
     else if(escolha == 3){
         ListaT.verTrabalhadores();
+    }
+    else if(escolha == 4){
+        ListaC.verClientes();
     }
     else if(escolha == 5){
 
@@ -132,7 +140,8 @@ int main()
         cout << "insira o contratado: ";
         cin >> indice;
 
-        Teste.RealizarContrato(indice, data, ListaT);
+        Teste.RealizarContrato(indice, data, ListaT, vetorzin);
+        vetorzin++;
 
     }
     cout << "\n";

@@ -4,9 +4,9 @@
 #include "Trabalhador.h"
 #include "ListaTrabalhadores.h"
 
- void Contrato::RealizarContrato(int Contratado, Data DataContrato, ListaTrabalhadores Lista){
+ void Contrato::RealizarContrato(int Contratado, Data DataContrato, ListaTrabalhadores Lista, int valor){
 
-    Lista.trabalhadores[Contratado].Preencher(DataContrato);
+    Lista.trabalhadores[Contratado].Preencher(DataContrato, valor);
 
  }
 

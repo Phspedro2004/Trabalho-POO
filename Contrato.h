@@ -10,7 +10,7 @@ using namespace std;
 class Contrato{
     public:
 
-        void RealizarContrato(int Contratado, Data DataContrato, ListaTrabalhadores Lista);
+        void RealizarContrato(int Contratado, Data DataContrato, ListaTrabalhadores Lista,int valor);
 
 };
 
